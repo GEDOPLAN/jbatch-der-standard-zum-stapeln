@@ -1,0 +1,13 @@
+<job id="demoC_countryImportFixed" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/jobXML_1_0.xsd" version="1.0">
+  <step id="clean" next="import">
+    <batchlet ref="countryCleanBatchlet"/>
+  </step>
+  <step id="import">
+    <chunk item-count="10">
+      <reader ref="countryItemReader" />
+      <processor ref="countryItemProcessor" />
+      <writer ref="countryItemWriter" />
+    </chunk>
+  </step>
+</job>
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:f="http://java.sun.com/jsf/core" xmlns:h="http://java.sun.com/jsf/html" xmlns:p="http://primefaces.org/ui">
+
+<h:head></h:head>
+<body>
+  <h:form>
+    <h:panelGrid columns="2">
+      <h:panelGroup>
+        <h2>Available jobs</h2>
+        <h:dataTable var="job" value="#{batchConsolePresenter.definedJobs}" rules="all">
+          <h:column width="90%">
+            <f:facet name="header">Job Name (Filter: <h:inputText value="#{batchConsolePresenter.jobFilter}" />)</f:facet>
+            <h:outputText value="#{job.name}" />
+          </h:column>
+          <h:column width="10%">
+            <h:commandButton action="#{job.start(batchConsolePresenter.jobParameters)}" value="start" />
+          </h:column>
+        </h:dataTable>
+      </h:panelGroup>
+
+      <h:panelGroup>
+        <h4>Job parameters (for start and restart)</h4>
+        <h:inputTextarea id="jobParm" value="#{batchConsolePresenter.jobParameters}" cols="40" rows="5" />
+        <h:message for="jobParm" />
+      </h:panelGroup>
+    </h:panelGrid>
+
+    <h:panelGrid columns="2">
+      <h2>Job instances and executions</h2>
+      <h:commandButton value="refresh" />
+    </h:panelGrid>
+    <h:dataTable value="#{batchConsolePresenter.jobInstances}" var="ji" rules="all">
+      <h:column>
+        <f:facet name="header">Job Name</f:facet>
+        <h:outputText value="#{ji.job.name}" />
+      </h:column>
+      <h:column>
+        <f:facet name="header">Instance ID</f:facet>
+        <h:outputText value="#{ji.id}" />
+        <h:commandButton action="#{ji.stop()}" value="stop" rendered="#{ji.stoppable}" />
+        <h:commandButton action="#{ji.restart(batchConsolePresenter.jobParameters)}" value="restart" rendered="#{ji.restartable}" />
+        <h:commandButton action="#{ji.abandon()}" value="abandon" rendered="#{ji.abandonable}" />
+      </h:column>
+      <h:column>
+        <f:facet name="header">Job Executions</f:facet>
+        <h:dataTable value="#{ji.executions}" var="je" rules="all">
+          <h:column>
+            <h:outputText value="id:" />
+            <h:outputText value="#{je.id}" />
+          </h:column>
+          <h:column>
+            <h:outputText value="start:" />
+            <h:outputText value="#{je.startTime}">
+              <f:convertDateTime pattern="yyyy-MM-dd HH:mm:ss.SSS" />
+            </h:outputText>
+          </h:column>
+          <h:column>
+            <h:outputText value="end:" />
+            <h:outputText value="#{je.endTime}">
+              <f:convertDateTime pattern="yyyy-MM-dd HH:mm:ss.SSS" />
+            </h:outputText>
+          </h:column>
+          <h:column>
+            <h:outputText value="batch status:" />
+            <h:outputText value="#{je.batchStatus}" />
+          </h:column>
+          <h:column>
+            <h:outputText value="exit status:" />
+            <h:outputText value="#{je.exitStatus}" />
+          </h:column>
+          <h:column>
+            <h:outputText value="parm: {" />
+            <h:outputText value="#{je.jobParameters}" />
+            <h:outputText value="}" />
+          </h:column>
+          <h:column>
+            <h:dataTable value="#{je.stepExecutions}" var="step">
+              <h:column>
+                <h:outputText value="name:" />
+                <h:outputText value="#{step.name}" />
+              </h:column>
+              <h:column>
+                <h:outputText value="batch status:" />
+                <h:outputText value="#{step.batchStatus}" />
+              </h:column>
+              <h:column>
+                <h:outputText value="exit status:" />
+                <h:outputText value="#{step.exitStatus}" />
+              </h:column>
+            </h:dataTable>
+          </h:column>
+        </h:dataTable>
+      </h:column>
+    </h:dataTable>
+  </h:form>
+</body>
+</html>

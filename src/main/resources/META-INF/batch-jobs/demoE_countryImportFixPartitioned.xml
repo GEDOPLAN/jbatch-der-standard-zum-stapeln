@@ -1,0 +1,37 @@
+<job id="demoE_countryImportFixPartitioned" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/jobXML_1_0.xsd"
+  version="1.0">
+  <step id="clean" next="import">
+    <batchlet ref="countryCleanBatchlet" />
+  </step>
+  <step id="import">
+    <properties>
+      <property name="reader.file.path" value="${basedir}/src/main/resources/country.csv" />
+    </properties>
+    <chunk item-count="10">
+      <reader ref="textFileItemReader">
+        <properties>
+          <property name="linePattern" value="#{partitionPlan['pattern']}" />
+        </properties>
+      </reader>
+      <processor ref="countryItemProcessor" />
+      <writer ref="entityItemWriter" />
+    </chunk>
+    <partition>
+      <plan partitions="4">
+        <properties partition="0">
+          <property name="pattern" value="^[A-F].*" />
+        </properties>
+        <properties partition="1">
+          <property name="pattern" value="^[G-L].*" />
+        </properties>
+        <properties partition="2">
+          <property name="pattern" value="^[M-S].*" />
+        </properties>
+        <properties partition="3">
+          <property name="pattern" value="^[T-Z].*" />
+        </properties>
+      </plan>
+    </partition>
+  </step>
+</job>
+

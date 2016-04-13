@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:f="http://java.sun.com/jsf/core" xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head></h:head>
+<body>
+  <h:form>
+    <h:dataTable value="#{demoJobPresenter.jobNames}" var="jobName">
+      <h:column>
+        <h:commandButton action="#{demoJobPresenter.startJob(jobName)}" value="start #{jobName}" />
+      </h:column>
+    </h:dataTable>
+  </h:form>
+
+  <hr />
+
+  <h:outputText value="Last execution:" />
+
+  <h:panelGrid columns="2" rules="all">
+    <h:outputText value="Job: " />
+    <h:outputText value="#{demoJobPresenter.lastJobExecution.jobName}" />
+
+    <h:outputText value="Execution ID: " />
+    <h:outputText value="#{demoJobPresenter.lastExecutionId}" />
+
+    <h:outputText value="Parameters: " />
+    <h:dataTable value="#{demoJobPresenter.lastJobExecution.jobParameters.entrySet()}" var="p">
+      <h:column>
+        <h:outputText value="#{p.key} = #{p.value}" />
+      </h:column>
+    </h:dataTable>
+
+    <h:outputText value="Batch status: " />
+    <h:outputText value="#{demoJobPresenter.lastJobExecution.batchStatus}" />
+
+    <h:outputText value="Steps: " />
+    <h:dataTable value="#{demoJobPresenter.lastStepExecutions}" var="s">
+      <h:column>
+        <h:outputText value="#{s.stepName}" />
+      </h:column>
+      <h:column>
+        <h:outputText value="#{s.batchStatus} (#{s.exitStatus})" />
+      </h:column>
+    </h:dataTable>
+  </h:panelGrid>
+
+  <h:form>
+    <h:commandLink value="refresh" immediate="true" />
+  </h:form>
+
+  <hr />
+
+  <h:form>
+    <h:commandLink action="home" value="back" immediate="true" />
+  </h:form>
+
+  <h:messages />
+
+</body>
+</html>

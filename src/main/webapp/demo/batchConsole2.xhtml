@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:f="http://java.sun.com/jsf/core" xmlns:h="http://java.sun.com/jsf/html" xmlns:p="http://primefaces.org/ui">
+
+<h:head></h:head>
+<body>
+  <h:form prependId="false">
+    <p:layout fullPage="true">
+      <p:layoutUnit position="center">
+        <p:dataTable var="job" value="#{batchConsolePresenter.definedJobs}" scrollable="true" scrollHeight="99%">
+          <p:column>
+            <f:facet name="header">Job</f:facet>
+            <p:commandButton action="#{job.start(batchConsolePresenter.jobParameters)}" icon="ui-icon-play" title="start" process="@all" update="jobExecutions" />
+            <h:outputText value=" #{job.name}" />
+          </p:column>
+        </p:dataTable>
+      </p:layoutUnit>
+      <p:layoutUnit position="east" size="50%">
+        <h4>
+          Job parameters<br />(for start and restart)
+        </h4>
+        <h:inputTextarea id="jobParm" value="#{batchConsolePresenter.jobParameters}" rows="10" cols="50" />
+        <h:message for="jobParm" />
+      </p:layoutUnit>
+      <p:layoutUnit position="south" size="50%">
+        <p:dataTable id="jobExecutions" var="je" value="#{batchConsolePresenter.jobExecutions}" scrollable="true" scrollHeight="99%">
+          <f:facet name="header">
+            <h:outputText value="Executions " />
+            <p:commandButton icon="ui-icon-refresh" title="refresh" update="jobExecutions" />
+          </f:facet>
+          <p:column width="18%">
+            <f:facet name="header">Instance</f:facet>
+            <h:outputText value="#{je.instance.job.name}##{je.instance.id}" />
+          </p:column>
+          <p:column width="3%">
+            <f:facet name="header">Id</f:facet>
+            <h:outputText value="#{je.id} " />
+            <p:commandButton action="#{je.stop()}" icon="ui-icon-pause" title="stop" rendered="#{je.stoppable}" update="jobExecutions" />
+            <p:commandButton action="#{je.restart(batchConsolePresenter.jobParameters)}" icon="ui-icon-play" title="restart" rendered="#{je.restartable}" update="jobExecutions" />
+            <p:commandButton action="#{je.abandon()}" icon="ui-icon-closethick" title="abandon" rendered="#{je.abandonable}" update="jobExecutions" />
+          </p:column>
+          <p:column width="18%">
+            <f:facet name="header">Timestamp</f:facet>
+            <h:outputText value="#{je.startTime}">
+              <f:convertDateTime pattern="yyyy-MM-dd HH:mm:ss.SSS" />
+            </h:outputText>
+            <br />
+            <h:outputText value="#{je.endTime}">
+              <f:convertDateTime pattern="yyyy-MM-dd HH:mm:ss.SSS" />
+            </h:outputText>
+          </p:column>
+          <p:column width="8%">
+            <f:facet name="header">Batch Status</f:facet>
+            <h:outputText value="#{je.batchStatus}" />
+          </p:column>
+          <p:column width="8%">
+            <f:facet name="header">Exit Status</f:facet>
+            <h:outputText value="#{je.exitStatus}" />
+          </p:column>
+          <p:column width="8%">
+            <f:facet name="header">Job Parameter</f:facet>
+            <h:outputText value="#{je.jobParameters}" />
+          </p:column>
+          <p:column width="37%">
+            <f:facet name="header">Steps</f:facet>
+            <h:dataTable value="#{je.stepExecutions}" var="step">
+              <h:column>
+                <h:outputText value="#{step.name}" />
+              </h:column>
+              <h:column>
+                <h:outputText value="#{step.batchStatus}" />
+              </h:column>
+              <h:column>
+                <h:outputText value="#{step.exitStatus}" />
+              </h:column>
+            </h:dataTable>
+          </p:column>
+        </p:dataTable>
+      </p:layoutUnit>
+    </p:layout>
+  </h:form>
+</body>
+</html>

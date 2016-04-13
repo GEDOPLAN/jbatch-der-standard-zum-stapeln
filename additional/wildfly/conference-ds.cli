@@ -1,0 +1,3 @@
+# $JBOSS_HOME/bin/jboss-cli starten und folgende Befehle ausführen
+connect
+/subsystem=datasources/data-source=conference:add(jndi-name=java:/datasource/conference, connection-url="jdbc:h2:~/h2/conference;AUTO_SERVER=TRUE", driver-name=h2, user-name=conference, password=conference)

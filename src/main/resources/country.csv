@@ -1,0 +1,250 @@
+#ISO3166A2	ISOen_name	BGN_capital	continent	population	land
+AF	 Afghanistan	 Kabul	 AS	30419928	652230
+AX	 Aland Islands	 Mariehamn	 EU	28007	13517
+AL	 Albania	 Tirana	 EU	3002859	27398
+DZ	 Algeria	 Algiers	 AF	35406303	2381741
+AS	 American Samoa	 Pago Pago	 OC	68061	199
+AD	 Andorra	 Andorra la Vella	 EU	85082	468
+AO	 Angola	 Luanda	 AF	18056072	1246700
+AI	 Anguilla	 The Valley	 NA	15423	91
+AQ	 Antarctica	 	 AN		14000000
+AG	 Antigua and Barbuda	 Saint John's	 NA	89018	443
+AR	 Argentina	 Buenos Aires	 SA	42192494	2736690
+AM	 Armenia	 Yerevan	 AS	2970495	28203
+AW	 Aruba	 Oranjestad	 NA	107635	180
+AU	 Australia	 Canberra	 OC	22015576	7682300
+AT	 Austria	 Vienna	 EU	8219743	82445
+AZ	 Azerbaijan	 Baku	 AS	9493600	82629
+BS	 Bahamas	 Nassau	 NA	316182	10010
+BH	 Bahrain	 Manama	 AS	1248348	760
+BD	 Bangladesh	 Dhaka	 AS	161083804	130168
+BB	 Barbados	 Bridgetown	 NA	287733	430
+BY	 Belarus	 Minsk	 EU	9542883	202900
+BE	 Belgium	 Brussels	 EU	10438353	30278
+BZ	 Belize	 Belmopan	 NA	327719	22806
+BJ	 Benin	 Porto-Novo	 AF	9598787	110622
+BM	 Bermuda	 Hamilton	 NA	69080	54
+BT	 Bhutan	 Thimphu	 AS	716896	38394
+BO	 Bolivia	 La Paz	 SA	10290003	1083301
+BQ	 Bonaire	 	 NA		322
+BA	 Bosnia and Herzegovina	 Sarajevo	 EU	4622292	51187
+BW	 Botswana	 Gaborone	 AF	2098018	566730
+BV	 Bouvet Island	 	 AN		49
+BR	 Brazil	 Brasilia	 SA	205716890	8459417
+IO	 British Indian Ocean Territory	 	 AS	4000	60
+BN	 Brunei Darussalam	 Bandar Seri Begawan	 AS	408786	5265
+BG	 Bulgaria	 Sofia	 EU	7037935	108489
+BF	 Burkina Faso	 Ouagadougou	 AF	17275115	273800
+BI	 Burundi	 Bujumbura	 AF	10557259	25680
+KH	 Cambodia	 Phnom Penh	 AS	14952665	176515
+CM	 Cameroon	 Yaounde	 AF	20129878	472710
+CA	 Canada	 Ottawa	 NA	34300083	9093507
+CV	 Cape Verde	 Praia	 AF	523568	4033
+KY	 Cayman Islands	 George Town	 NA	52560	264
+CF	 Central African Republic	 Bangui	 AF	5057208	622984
+TD	 Chad	 N'Djamena	 AF	10975648	1284000
+CL	 Chile	 Santiago	 SA	17067369	743812
+CN	 China	 Beijing	 AS	1343239923	9569901
+CX	 Christmas Island	 The Settlement	 AS	1496	135
+CC	 Cocos (Keeling) Islands	 West Island	 AS	596	14
+CO	 Colombia	 Bogota	 SA	45239079	1038700
+KM	 Comoros	 Moroni	 AF	737284	2235
+CG	 Congo	 Brazzaville	 AF	4125916	341500
+CD	 Democratic Republic ofCongo	 Kinshasa	 AF	73599190	2267048
+CK	 Cook Islands	 Avarua	 OC	10777	236
+CR	 Costa Rica	 San Jose	 NA	4636348	51060
+CI	 Cote d'Ivoire	 Yamoussoukro	 AF	21952093	318003
+HR	 Croatia	 Zagreb	 EU	4480043	55974
+CU	 Cuba	 Havana	 NA	11075244	109820
+CW	 Curacao	 Willemstad	 NA	142180	444
+CY	 Cyprus	 Nicosia	 AS	1138071	9241
+CZ	 Czech Republic	 Prague	 EU	10177300	77247
+DK	 Denmark	 Copenhagen	 EU	5543453	42434
+DJ	 Djibouti	 Djibouti	 AF	774389	23180
+DM	 Dominica	 Roseau	 NA	73126	751
+DO	 Dominican Republic	 Santo Domingo	 NA	10088598	48320
+EC	 Ecuador	 Quito	 SA	15223680	276841
+EG	 Egypt	 Cairo	 AF	83688164	995450
+SV	 El Salvador	 San Salvador	 NA	6090646	20721
+GQ	 Equatorial Guinea	 Malabo	 AF	685991	28051
+ER	 Eritrea	 Asmara	 AF	6086495	101000
+EE	 Estonia	 Tallinn	 EU	1274709	42388
+ET	 Ethiopia	 Addis Ababa	 AF	93815992	1000000
+FK	 Falkland Islands (Malvinas)	 Stanley	 SA	3140	12173
+FO	 Faroe Islands	 Torshavn	 EU	49483	1393
+FJ	 Fiji	 Suva	 OC	890057	18274
+FI	 Finland	 Helsinki	 EU	5262930	303815
+FR	 France	 Paris	 EU	65630692	640427
+GF	 French Guiana	 Cayenne	 SA	217000	83534
+PF	 French Polynesia	 Papeete	 OC	274512	3827
+TF	 French Southern Territories	 	 AN		55
+GA	 Gabon	 Libreville	 AF	1608321	257667
+GM	 Gambia	 Banjul	 AF	1840454	10000
+GE	 Georgia	 T'bilisi	 AS	4570934	69700
+DE	 Germany	 Berlin	 EU	81305856	348672
+GH	 Ghana	 Accra	 AF	25241998	227533
+GI	 Gibraltar	 Gibraltar	 EU	29034	7
+GR	 Greece	 Athens	 EU	10767827	130647
+GL	 Greenland	 Nuuk	 NA	57695	2166086
+GD	 Grenada	 Saint George's	 NA	109011	344
+GP	 Guadeloupe	 Basse-Terre	 NA	405500	1628
+GU	 Guam	 Hagatna	 OC	183286	544
+GT	 Guatemala	 Guatemala City	 NA	14099032	107159
+GG	 Guernsey	 Saint Peter Port	 EU	64775	78
+GN	 Guinea	 Conakry	 AF	10884958	245717
+GW	 Guinea-Bissau	 Bissau	 AF	1628603	28120
+GY	 Guyana	 Georgetown	 SA	741908	196849
+HT	 Haiti	 Port-au-Prince	 NA	9801664	27560
+HM	 Heard Island and McDonald Islands	 	 OC		412
+VA	 Holy See (Vatican City State)	 Vatican City	 EU	836	1
+HN	 Honduras	 Tegucigalpa	 NA	8296693	111890
+HK	 Hong Kong	 	 AS	7153519	1054
+HU	 Hungary	 Budapest	 EU	9958453	89608
+IS	 Iceland	 Reykjavik	 EU	313183	100250
+IN	 India	 New Delhi	 AS	1205073612	2973193
+ID	 Indonesia	 Jakarta	 AS	248216193	1811569
+IR	 Iran	 Tehran	 AS	78868711	1531595
+IQ	 Iraq	 Baghdad	 AS	31129225	437367
+IE	 Ireland	 Dublin	 EU	4722028	68883
+IM	 Isle of Man	 Douglas	 EU	85421	572
+IL	 Israel	 Jerusalem	 AS	7590758	20330
+IT	 Italy	 Rome	 EU	61261254	294140
+JM	 Jamaica	 Kingston	 NA	2889187	10831
+JP	 Japan	 Tokyo	 AS	127368088	364485
+JE	 Jersey	 Saint Helier	 EU	94949	116
+JO	 Jordan	 Amman	 AS	6508887	88802
+KZ	 Kazakhstan	 Astana	 AS	17522010	2699700
+KE	 Kenya	 Nairobi	 AF	43013341	569140
+KI	 Kiribati	 Tarawa	 OC	101998	811
+KP	 Democratic People's Republic of Korea	 Pyongyang	 AS	24589122	120408
+KR	 Republic of Korea	 Seoul	 AS	48860500	96920
+KW	 Kuwait	 Kuwait City	 AS	2646314	17818
+KG	 Kyrgyzstan	 Bishkek	 AS	5496737	191801
+LA	 Lao People's Democratic Republic	 Vientiane	 AS	6586266	230800
+LV	 Latvia	 Riga	 EU	2191580	62249
+LB	 Lebanon	 Beirut	 AS	4140289	10230
+LS	 Lesotho	 Maseru	 AF	1930493	30355
+LR	 Liberia	 Monrovia	 AF	3887886	96320
+LY	 Libyan Arab Jamahiriya	 Tripoli	 AF	6733620	1759540
+LI	 Liechtenstein	 Vaduz	 EU	36713	160
+LT	 Lithuania	 Vilnius	 EU	3525761	62680
+LU	 Luxembourg	 Luxembourg	 EU	509074	2586
+MO	 Macao	 	 AS	578025	28
+MK	 Macedonia	 Skopje	 EU	2082370	25433
+MG	 Madagascar	 Antananarivo	 AF	22585517	581540
+MW	 Malawi	 Lilongwe	 AF	16323044	94080
+MY	 Malaysia	 Kuala Lumpur	 AS	29179952	328657
+MV	 Maldives	 Male	 AS	394451	298
+ML	 Mali	 Bamako	 AF	14533511	1220190
+MT	 Malta	 Valletta	 EU	409836	316
+MH	 Marshall Islands	 Majuro	 OC	68480	181
+MQ	 Martinique	 Fort-de-France	 NA	397730	1128
+MR	 Mauritania	 Nouakchott	 AF	3359185	1030700
+MU	 Mauritius	 Port Louis	 AF	1313095	2030
+YT	 Mayotte	 Mamoudzou	 AF	231139	374
+MX	 Mexico	 Mexico City	 NA	114975406	1943945
+FM	 Federated States of Micronesia	 Palikir	 OC	106487	702
+MD	 Moldova	 Chisinau	 EU	3656843	32891
+MC	 Monaco	 Monaco	 EU	30510	2
+MN	 Mongolia	 Ulaanbaatar	 AS	3179997	1553556
+ME	 Montenegro	 Podgorica	 EU	657394	13452
+MS	 Montserrat	 Plymouth	 NA	5164	102
+MA	 Morocco	 Rabat	 AF	32309239	446300
+MZ	 Mozambique	 Maputo	 AF	23515934	786380
+MM	 Myanmar	 Rangoon	 AS	54584650	653508
+NA	 Namibia	 Windhoek	 AF	2165828	823290
+NR	 Nauru	 Yaren District	 OC	9378	21
+NP	 Nepal	 Kathmandu	 AS	29890686	143351
+NL	 Netherlands	 Amsterdam	 EU	16730632	33893
+NC	 New Caledonia	 Noumea	 OC	260166	18275
+NZ	 New Zealand	 Wellington	 OC	4327944	267710
+NI	 Nicaragua	 Managua	 NA	5727707	119990
+NE	 Niger	 Niamey	 AF	17078839	1267000
+NG	 Nigeria	 Abuja	 AF	170123740	910768
+NU	 Niue	 Alofi	 OC	1269	260
+NF	 Norfolk Island	 Kingston	 OC	2182	36
+MP	 Northern Mariana Islands	 Saipan	 OC	44582	464
+NO	 Norway	 Oslo	 EU	4707270	304282
+PS	 Occupied Palestinian Territory	 East Jerusalem	 AS	4199083	5640
+OM	 Oman	 Muscat	 AS	3090150	309500
+PK	 Pakistan	 Islamabad	 AS	190291129	770875
+PW	 Palau	 Melekeok	 OC	21032	459
+PA	 Panama	 Panama City	 NA	3510045	74340
+PG	 Papua New Guinea	 Port Moresby	 OC	6310129	452860
+PY	 Paraguay	 Asuncion	 SA	6541591	397302
+PE	 Peru	 Lima	 SA	29549517	1279996
+PH	 Philippines	 Manila	 AS	103775002	298170
+PN	 Pitcairn	 Adamstown	 OC	48	47
+PL	 Poland	 Warsaw	 EU	38415284	304255
+PT	 Portugal	 Lisbon	 EU	10781459	91470
+PR	 Puerto Rico	 San Juan	 NA	3998905	8870
+QA	 Qatar	 Doha	 AS	1951591	11586
+RE	 Reunion	 Saint-Denis	 AF	827000	2512
+RO	 Romania	 Bucharest	 EU	21848504	229891
+RU	 Russian Federation	 Moscow	 EU	138082178	16377742
+RW	 Rwanda	 Kigali	 AF	11689696	24668
+BL	 Saint Barthelemy	 Gustavia	 NA	7332	21
+SH	 Saint Helena	 Jamestown	 AF	7728	308
+KN	 Saint Kitts and Nevis	 Basseterre	 NA	50726	261
+LC	 Saint Lucia	 Castries	 NA	162178	606
+MF	 Saint Martin (French part)	 Marigot	 NA	30959	54
+PM	 Saint Pierre and Miquelon	 Saint-Pierre	 NA	5831	242
+VC	 Saint Vincent and The Grenadines	 Kingstown	 NA	103537	389
+WS	 Samoa	 Apia	 OC	194320	2821
+SM	 San Marino	 San Marino	 EU	32140	61
+ST	 Sao Tome and Principe	 Sao Tome	 AF	183176	964
+SA	 Saudi Arabia	 Riyadh	 AS	26534504	2149690
+SN	 Senegal	 Dakar	 AF	12969606	192530
+RS	 Serbia	 Belgrade	 EU	7276604	77474
+SC	 Seychelles	 Victoria	 AF	90024	455
+SL	 Sierra Leone	 Freetown	 AF	5485998	71620
+SG	 Singapore	 Singapore	 AS	5353494	687
+SX	 Sint Maarten (Dutch part)	 Philipsburg	 NA	37429	34
+SK	 Slovakia	 Bratislava	 EU	5483088	48105
+SI	 Slovenia	 Ljubljana	 EU	1996617	20151
+SB	 Solomon Islands	 Honiara	 OC	584578	27986
+SO	 Somalia	 Mogadishu	 AF	10085638	627337
+ZA	 South Africa	 Pretoria	 AF	48810427	1214470
+GS	 South Georgia and the South Sandwich Islands	 King Edward Point	 AN		3903
+SS	 South Sudan	 Juba	 AF	10625176	644329
+ES	 Spain	 Madrid	 EU	47042984	498980
+LK	 Sri Lanka	 Colombo	 AS	21481334	64630
+SD	 Sudan	 Khartoum	 AF	34206710	1861484
+SR	 Suriname	 Paramaribo	 SA	560157	156000
+SJ	 Svalbard and Jan Mayen	 Longyearbyen	 EU	2067	62045
+SZ	 Swaziland	 Mbabane	 AF	1386914	17204
+SE	 Sweden	 Stockholm	 EU	9103788	410335
+CH	 Switzerland	 Bern	 EU	7655628	39997
+SY	 Syrian Arab Republic	 Damascus	 AS	22530746	183630
+TW	 Taiwan	 Taipei	 AS	23113901	32260
+TJ	 Tajikistan	 Dushanbe	 AS	7768385	141510
+TZ	 Tanzania	 Dar es Salaam	 AF	43601796	885800
+TH	 Thailand	 Bangkok	 AS	67091089	510890
+TL	 Timor-Leste	 Dili	 AS	1201255	14874
+TG	 Togo	 Lome	 AF	6961049	54385
+TK	 Tokelau	 	 OC	1368	12
+TO	 Tonga	 Nuku'alofa	 OC	106146	717
+TT	 Trinidad and Tobago	 Port-of-Spain	 NA	1226383	5128
+TN	 Tunisia	 Tunis	 AF	10732900	155360
+TR	 Turkey	 Ankara	 AS	79749461	769632
+TM	 Turkmenistan	 Ashgabat	 AS	5054828	469930
+TC	 Turks and Caicos Islands	 Grand Turk	 NA	46335	948
+TV	 Tuvalu	 Funafuti	 OC	10619	26
+UG	 Uganda	 Kampala	 AF	35873253	197100
+UA	 Ukraine	 Kyiv/Kiev	 EU	44854065	579330
+AE	 United Arab Emirates	 Abu Dhabi	 AS	5314317	83600
+GB	 United Kingdom	 London	 EU	63047162	241930
+US	 United States	 Washington	 NA	313847465	9161966
+UM	 United States Minor Outlying Islands	 	 OC	316	34
+UY	 Uruguay	 Montevideo	 SA	3316328	175015
+UZ	 Uzbekistan	 Tashkent	 AS	28394180	425400
+VU	 Vanuatu	 Port Vila	 OC	227574	12189
+VE	 Venezuela	 Caracas	 SA	28047938	882050
+VN	 Viet Nam	 Hanoi	 AS	91519289	310070
+VG	 British Virgin Islands	 Road Town	 NA	31148	151
+VI	 U.S. Virgin Islands	 Charlotte Amalie	 NA	109574	346
+WF	 Wallis and Futuna	 Mata-Utu	 OC	15453	142
+EH	 Western Sahara	 Laayoune	 AF	522928	266000
+YE	 Yemen	 Sanaa	 AS	24771809	527968
+ZM	 Zambia	 Lusaka	 AF	14309466	743398
+ZW	 Zimbabwe	 Harare	 AF	12619600	386847
